@@ -283,6 +283,7 @@ def correctMispelledWordsUsingSmithWaterman():
 and logs the results in a text file. 
 """
 def correctMispelledWordsUsingSoundex():
+    print("Running Soundex Algorithm")
     global soundexAccurateGuesses
     global totalWordsGuessed
     global soundexCorrectRecalls
@@ -325,6 +326,7 @@ def correctMispelledWordsUsingSoundex():
 and logs the results in a text file. 
 """
 def correctMispelledWordsUsingSoundexAndNeedlman():
+    print("Running Soundex with Needleman Algorithm")
     global soundexAccurateGuesses
     global totalWordsGuessed
     global soundexCorrectRecalls
